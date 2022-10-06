@@ -1,0 +1,165 @@
+.container1{
+    height: 100vh;
+    width: 100vw;
+    display: grid;
+
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 3fr 2fr;
+    background-color: rgb(184, 174, 174);
+}
+
+.To{
+    grid-column: 2/3;
+    grid-row: 1/-1;
+    margin-top: 5%;
+    margin-left: 5%;
+}
+
+/* .csvfile{
+
+        grid-column: 1/2;
+        grid-row: 2/3;
+        margin-left: 14%;
+        margin-top: 5%;
+} */
+
+.group-name{
+    grid-column: 1/2;
+    grid-row: 1/2;
+    margin-left: 14%;
+    margin-top: 5%;
+}
+
+.back{
+    background-color: rgb(150, 146, 146);
+}
+
+.Dropdown-name{
+    grid-column: 1/2;
+    grid-row: 3/4;
+    margin-left: 12%;
+    margin-top: -4%;
+}
+
+.Delete-group{
+    grid-column: 1/2;
+    grid-row: 4/5;
+    margin-left: 13%;
+    margin-top: 3%;
+}
+
+.button-final{
+
+    
+    grid-row: 5/6;
+    grid-column: 1/2;
+
+}
+
+.groupName{
+    border-radius: 5px;
+    text-align: center;
+    padding: 1%;
+    border-color: rgba(0, 0, 0, 0.726);
+    box-shadow: 0px 5px 12px rgba(0, 0, 0, 0.157);
+}
+
+.group-button{
+    padding: 1%;
+    padding-left: 12%;
+    padding-right: 12%;
+    margin-top: 6%;
+    margin-left: 25%;
+    border-color: rgba(0, 0, 0, 0.637);
+    font-weight: 500;
+    font-size: 18px;
+    
+}
+.group-button:hover{
+    background-color: rgb(248, 46, 11);
+    color: white;
+
+}
+.Csv-button{
+
+    padding: 1%;
+    padding-left: 12%;
+    padding-right: 12%;
+    margin-top: 6%;
+    margin-left: 18%;
+    border-color: rgba(0, 0, 0, 0.637);
+    font-weight: 500;
+    font-size: 18px;
+
+}
+
+.Csv-button:hover{
+    background-color: rgb(248, 46, 11);   
+    color: white;
+
+}
+
+.Delete-button{
+
+    padding: 1% 2%;
+    
+    margin-top: 12%;
+    margin-left: 15%;
+    border-color: rgba(0, 0, 0, 0.637);
+    font-weight: 500;
+    font-size: 18px;
+    /* padding-left: 12%;
+    padding-right: 12%; */
+
+}
+.Delete-button:hover{
+
+    background-color: rgb(248, 46, 11);  
+    color: white;
+
+}
+
+.Final-Sub{
+
+    padding: 1% 2%;
+    
+    margin-top: 12%;
+    margin-left: 5%;
+    border-color: rgba(0, 0, 0, 0.637);
+    font-weight: 500;
+    font-size: 18px;
+
+}
+.Final-Sub:hover{
+
+    background-color: rgb(248, 46, 11);  
+    color: white;
+
+}
+
+.Add-btn{
+
+    padding: 1% 3%;
+    
+    margin-top: 12%;
+    margin-left: 1%;
+    border-color: rgba(0, 0, 0, 0.637);
+    font-weight: 500;
+    font-size: 18px;
+
+}
+
+.Add-btn:hover{
+
+    background-color: rgb(248, 46, 11);
+    color: white;
+
+}
+
+.groupDelete{
+    text-align: center;
+}
+
+.dropdown-mail{
+    margin-left: -15%;
+}
